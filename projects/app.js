@@ -45,6 +45,10 @@ app.get("/", (req,res)=>{
     res.render("front.ejs")
 });
 
+app.get("/#", (req,res)=>{
+    res.render("front.ejs")
+});
+
 app.get("/explore", (req,res)=>{
     res.render("contact.ejs")
 });
